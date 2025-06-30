@@ -48,8 +48,7 @@ Performed Exploratory Data Analysis (EDA) on the Titanic dataset to identify key
 
 ## 📎 Submission
 This project was submitted as part of a Data Analyst Internship (Task 5).  
-🔗 **[GitHub Repository Link]** (replace this with your actual link)
-
+🔗 **[https://github.com/Rajsatyam6428/elevate-task-5.git]** 
 ## 📚 Learnings
 - Practical application of EDA using Python
 - Visual storytelling with Seaborn & Matplotlib
