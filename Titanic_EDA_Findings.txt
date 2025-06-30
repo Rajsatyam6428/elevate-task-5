@@ -1,0 +1,31 @@
+
+Task 5 - Titanic EDA: Summary of Findings
+
+Dataset Context:
+The Titanic dataset contains passenger-level data including demographic information, ticket class, fare, and survival status. The objective was to explore which factors most influenced survival.
+
+Univariate Analysis Findings:
+- Survived: Majority of passengers did not survive (~62% fatalities).
+- Age: Distribution is right-skewed. Most passengers were aged 20–40.
+- Fare: Fare values are highly skewed, with some very expensive tickets.
+- Sex: More males were aboard than females.
+
+Bivariate Analysis Findings:
+- Sex vs Survived: Females had a much higher survival rate than males.
+- Pclass vs Survived: 1st class passengers were most likely to survive; 3rd class the least.
+- Age vs Survived: Younger passengers had a slightly better survival chance.
+- Fare vs Survived: Those who paid higher fares had better odds of survival.
+
+Multivariate Analysis Findings:
+- Correlation Heatmap:
+    - Pclass and Survived had moderate negative correlation (~-0.34).
+    - Fare had a positive correlation with survival (~0.26).
+- Pairplot:
+    - Stronger survival separation observed by Fare and Pclass.
+    - Age showed more variability and was not a strong individual predictor.
+
+Overall Insights:
+- Gender, Passenger Class, and Fare were most strongly associated with survival.
+- Age was a weaker predictor, though young children had better outcomes.
+- Socioeconomic factors (indicated by class/fare) played a critical role in survival.
+- No strong multicollinearity detected, making the data suitable for machine learning.
